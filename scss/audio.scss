@@ -1,0 +1,36 @@
+.audio {
+	display: none;
+}
+.audio-active {
+	display: block;
+	&-active {
+		display: block;
+	}
+	.audio__title {
+		text-align: center;
+		font-size: 25px;
+		font-weight: 700;
+		margin-top: 15px;
+	}
+}
+.audio-list {
+	&__item {
+		display: flex;
+		p {
+			margin: 70px 0px 0px 0px;
+		}
+		img {
+			width: 300px;
+		}
+	}
+	&__item:last-child {
+		img {
+			width: 100px;
+			//height: 300px;
+		}
+		margin: 0px 0px 0px 95.5px;
+		p {
+			margin-left: 105px;
+		}
+	}
+}

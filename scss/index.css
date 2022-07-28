@@ -1,0 +1,24 @@
+.content__umovy {
+  display: none;
+  margin-top: 5px;
+}
+.content__umovy-active {
+  display: block;
+}
+
+.text-info {
+  font-size: 25px;
+}
+.text-info p {
+  margin: 0px 0px 15px 0px;
+}
+
+.shildick {
+  margin: 0 auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.shildick img {
+  width: 400px;
+}

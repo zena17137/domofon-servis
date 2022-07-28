@@ -1,0 +1,35 @@
+.audio {
+  display: none;
+}
+
+.audio-active {
+  display: block;
+}
+.audio-active-active {
+  display: block;
+}
+.audio-active .audio__title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.audio-list__item {
+  display: flex;
+}
+.audio-list__item p {
+  margin: 70px 0px 0px 0px;
+}
+.audio-list__item img {
+  width: 300px;
+}
+.audio-list__item:last-child {
+  margin: 0px 0px 0px 95.5px;
+}
+.audio-list__item:last-child img {
+  width: 100px;
+}
+.audio-list__item:last-child p {
+  margin-left: 105px;
+}

@@ -1,0 +1,25 @@
+$shildick-font-family: 'Arial', sans-serif;
+
+.content__umovy {
+	//animation: scale-for-content 1s linear 0s 1;
+	display: none;
+	margin-top: 5px;
+	&-active {
+		display: block;
+	}
+}
+.text-info {
+	font-size: 25px;
+
+	p {
+		margin: 0px 0px 15px 0px;
+	}
+}
+
+.shildick {
+	margin: 0 auto;
+	width: fit-content;
+	img {
+		width: 400px;
+	}
+}

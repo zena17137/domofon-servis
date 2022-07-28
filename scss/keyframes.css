@@ -1,0 +1,46 @@
+@-webkit-keyframes bgc-header {
+  0% {
+    background-color: #ef8a38;
+  }
+  50% {
+    background-color: #777;
+  }
+  100% {
+    background-color: rgb(165, 122, 72);
+  }
+}
+@keyframes bgc-header {
+  0% {
+    background-color: #ef8a38;
+  }
+  50% {
+    background-color: #777;
+  }
+  100% {
+    background-color: rgb(165, 122, 72);
+  }
+}
+@-webkit-keyframes scale-for-content {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(0);
+    display: none;
+  }
+}
+@keyframes scale-for-content {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(0);
+    display: none;
+  }
+}
