@@ -17,9 +17,7 @@ html {
 .header {
   position: relative;
   width: 100%;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: 153px;
   text-align: center;
   /*display: flex;
   justify-content: space-around;*/
