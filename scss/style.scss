@@ -55,8 +55,10 @@ html {
 				}
 				button:hover {
 					color: #222;
-					animation: bgc-header 1s linear 0s 1;
 					background-color: rgb(165, 122, 72);
+					@media (any-hover: hover) {
+						animation: bgc-header 1s linear 0s 1;
+					}
 				}
 				button:active {
 					background-color: #777;

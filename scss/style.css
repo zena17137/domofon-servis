@@ -53,9 +53,13 @@ html {
 }
 .header .nav .nav-list__item button:hover {
   color: #222;
-  -webkit-animation: bgc-header 1s linear 0s 1;
-          animation: bgc-header 1s linear 0s 1;
   background-color: rgb(165, 122, 72);
+}
+@media (any-hover: hover) {
+  .header .nav .nav-list__item button:hover {
+    -webkit-animation: bgc-header 1s linear 0s 1;
+            animation: bgc-header 1s linear 0s 1;
+  }
 }
 .header .nav .nav-list__item button:active {
   background-color: #777;
