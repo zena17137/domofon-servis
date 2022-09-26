@@ -1,0 +1,31 @@
+.door__propozucia {
+  display: none;
+}
+.door__propozucia-active {
+  display: block;
+  margin: 0 auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.door__propozucia-active img {
+  width: 85%;
+}
+.door__propozucia-active h2 {
+  padding: 50px;
+  text-align: center;
+  font-size: 28px;
+}
+.door__modern {
+  display: none;
+}
+.door__modern-active {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+.door__modern-active img {
+  width: 85%;
+}

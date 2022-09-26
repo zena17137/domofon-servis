@@ -1,0 +1,32 @@
+.door {
+	// .door__propozucia
+	&__propozucia {
+		display: none;
+	}
+	&__propozucia-active {
+		display: block;
+		margin: 0 auto;
+		width: fit-content;
+		img {
+			width: 85%;
+		}
+		h2 {
+			padding: 50px;
+			text-align: center;
+			font-size: 28px;
+		}
+	}
+
+	// .door__modern
+	&__modern {
+		display: none;
+	}
+	&__modern-active {
+		display: block;
+		width: fit-content;
+		margin: 0 auto;
+		img {
+			width: 85%;
+		}
+	}
+}

@@ -1,0 +1,118 @@
+.video {
+  display: none;
+}
+
+.video-active {
+  display: block;
+}
+.video-active-active {
+  display: block;
+}
+.video-active .video__title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.video-list_active {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.video-list_active .video-list-item_active {
+  display: flex;
+  margin: 0px 50px 30px 0px;
+}
+.video-list_active .video-list-item_active a {
+  color: #000;
+  padding: 15px;
+  background-color: #aaa;
+  transition: all 0.3s;
+  max-width: 200px;
+  display: block;
+  height: 100%;
+}
+.video-list_active .video-list-item_active span {
+  display: block;
+  text-align: center;
+  position: relative;
+}
+.video-list_active .video-list-item_active img {
+  display: block;
+  margin: 0 auto 20px;
+}
+.video-list_active .video-list-item_active a:hover {
+  background-color: #888;
+  border-radius: 15px;
+}
+
+.video_list {
+  display: none;
+}
+
+.video-list-item {
+  display: none;
+}
+
+.video-pages_active {
+  display: auto;
+  position: relative;
+}
+.video-pages_active .video-pages-item_active {
+  display: auto;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  padding: 15px;
+  position: relative;
+  border: 5px solid #000;
+  border-radius: 15px;
+}
+.video-pages_active .video-pages-item_active img {
+  display: block;
+  margin: 15px auto;
+  width: 200px;
+}
+.video-pages_active .video-pages-item_active h2 {
+  text-align: center;
+  font-size: 20px;
+}
+.video-pages_active .video-pages-item_active .add-card {
+  padding: 10px;
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  margin-left: 920px;
+  border-radius: 5px;
+  text-align: center;
+  width: 57px;
+  transition: all 0.3s;
+  height: 50px;
+}
+.video-pages_active .video-pages-item_active .add-card img {
+  height: 50px;
+  margin: -50px;
+  margin-left: -83px;
+  margin-top: -25px;
+}
+.video-pages_active button {
+  padding: 10px;
+  border-radius: 5px;
+  width: 50px;
+  text-align: center;
+  transition: all 0.3s;
+  margin-bottom: 5px;
+}
+.video-pages_active button:hover {
+  background-color: #bbb;
+}
+.video-pages_active .video-pages-item {
+  display: none;
+}
+
+.video-pages {
+  display: none;
+}

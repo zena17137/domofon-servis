@@ -1,0 +1,43 @@
+.card-active {
+  display: block;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.card {
+  display: none;
+}
+
+.list-card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.list-card__item {
+  width: 230px;
+  background-color: #aaa;
+  padding: 15px;
+  transition: all 0.3s;
+  margin-bottom: 10px;
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.list-card__item img {
+  margin: 30px 37px;
+}
+.list-card__item .counter {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  border-radius: 10px;
+  padding: 7px;
+  background-color: #ddd;
+}
+.list-card__item:hover {
+  border-radius: 30px;
+  cursor: pointer;
+}

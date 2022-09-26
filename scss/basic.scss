@@ -1,0 +1,21 @@
+.basicConceptsAboutTheIntercomSystem {
+	display: none;
+}
+.basicConceptsAboutTheIntercomSystem-active {
+	display: block;
+	font-weight: 600;
+	h2 {
+		text-align: center;
+		font-size: 30px;
+		margin: 15px 0 15px 0;
+	}
+
+	.text {
+		font-size: 20px;
+		line-height: 1.3;
+	}
+	ul {
+		
+		list-style: decimal;
+	}
+}
