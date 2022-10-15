@@ -47,17 +47,18 @@ html {
   border: 1px solid #000;
 }
 .header .nav-list .nav-list__item button {
+  font-weight: 700;
   background-color: inherit;
 }
 
 @media (max-width: 779px) {
   .header {
-    height: 230px;
+    height: 280px;
   }
 }
 @media (max-width: 708px) {
   .header {
-    height: 280px;
+    height: 350px;
   }
 }
 @media (max-width: 482px) {
