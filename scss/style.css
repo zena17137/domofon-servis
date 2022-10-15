@@ -29,7 +29,6 @@ html {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  padding: 20px;
 }
 .header .header__titul {
   font-size: 30px;
