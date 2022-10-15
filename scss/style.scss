@@ -63,6 +63,11 @@ html {
 		height: 350px;
 	}
 }
+@media (max-width: 658px) {
+	.header {
+		height: 410px;
+	}
+}
 @media (max-width: 482px) {
 	.header {
 		height: 370px;
