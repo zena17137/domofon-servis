@@ -73,6 +73,21 @@ html {
 		height: 370px;
 	}
 }
+@media (max-width: 354px) {
+	.header {
+		height: 390px;
+	}
+}
+@media (max-width: 338px) {
+	.header {
+		height: 420px;
+	}
+}
+@media (max-width: 327px) {
+	.header {
+		height: 460px;
+	}
+}
 //@media (max-width: 830px) {
 //	.header {
 //		height: 215px;

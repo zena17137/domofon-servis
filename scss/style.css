@@ -71,6 +71,21 @@ html {
     height: 370px;
   }
 }
+@media (max-width: 354px) {
+  .header {
+    height: 390px;
+  }
+}
+@media (max-width: 338px) {
+  .header {
+    height: 420px;
+  }
+}
+@media (max-width: 327px) {
+  .header {
+    height: 460px;
+  }
+}
 .content {
   max-width: 1000px;
   margin: 0 auto;
